@@ -31,6 +31,9 @@ class Cbssn_channels_links_Deactivator {
 	 */
 	public static function deactivate() {
 
+			delete_option('cbssn_req_path') ;
+			delete_option('cbssn_channels_required' ) ;
+			delete_option('cbssn_channels_current' ) ;
 	}
 
 }

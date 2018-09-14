@@ -1,0 +1,57 @@
+[
+  {
+    "NAME":"Buckeye Cable System",
+    "KEY":"BUCKEYECABLESYSTEM",
+    "STATUS":"1","CHANNEL":"",
+    "HDCHANNEL":"",
+    "LINK":"https://www.buckeyebroadband.com/tveverywhere"
+  },
+  {
+    "NAME":"Cox Communication",
+    "KEY":"COXCOMMUNICATIONS",
+    "STATUS":"1",
+    "CHANNEL":"",
+    "HDCHANNEL":"",
+    "LINK":"https://www.cox.com/residential/tv/watch-tv-online.html"
+  },
+  {
+    "NAME":"Cox",
+    "KEY":"COX",
+    "STATUS":"1",
+    "CHANNEL":"",
+    "HDCHANNEL":"",
+    "LINK":"https://www.cox.com/residential/tv/watch-tv-online.html"
+  },
+  {
+    "NAME":"FiOS TV from Frontier",
+    "KEY":"FIOSTVFROMFRONTIER",
+    "STATUS":"1",
+    "CHANNEL":"",
+    "HDCHANNEL":"",
+    "LINK":"https://tv.frontier.com/"
+  },
+  {
+    "NAME":"MEDIACOM",
+    "KEY":"MEDIACOM",
+    "STATUS":"1",
+    "CHANNEL":"",
+    "HDCHANNEL":"",
+    "LINK":"http://watch.mediacomtoday.com/"
+  },
+  {
+    "NAME":"Optimum",
+    "KEY":"OPTIMUM",
+    "STATUS":"1",
+    "CHANNEL":"",
+    "HDCHANNEL":"",
+    "LINK":"https://www.optimum.net/tv/to-go/"
+  },
+  {
+    "NAME":"WOW",
+    "KEY":"WOW",
+    "STATUS":"1",
+    "CHANNEL":"",
+    "HDCHANNEL":"",
+    "LINK":"http://www.wowway.com/products/tv#tv-online"
+  }
+]

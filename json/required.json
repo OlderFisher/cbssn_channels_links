@@ -1,0 +1,38 @@
+[
+  {
+    "NAME": "DirecTV Now",
+    "STATUS": "1",
+    "CHANNEL": "",
+    "HDCHANNEL": "",
+    "LINK": "https://sso-idp.evergent.com/ad/login?data=X2IwY2M5YzVlLWIxODAtNDBmMy05ZjU1LTYyMjEzMWUxMjFjN3xodHRwczovL3NwLmF1dGguYWRvYmUuY29tL3NwL3NhbWwvU0FNTEFzc2VydGlvbkNvbnN1bWVyfGh0dHBzOi8vc3AuYXV0aC5hZG9iZS5jb20vc3Avc2FtbC9TQU1MQXNzZXJ0aW9uQ29uc3VtZXJ8XzVlOTVkZmY1LTYxNzItNDRmMC1hOTZjLTYxNjNkMThkYTM4ZXxBVFRPVFR8V2ViIENsaWVudHxDQlNfU1BPUlRTfGFkb2JlLmNvbQ=="
+  },
+  {
+    "NAME": "Fubo TV",
+    "STATUS" : "1",
+    "CHANNEL" : "",
+    "HDCHANNEL" : "",
+    "LINK" : "https://www.fubo.tv/welcome"
+  },
+  {
+    "NAME" : "Hulu",
+    "STATUS" : "1",
+    "CHANNEL" :"",
+    "HDCHANNEL" : "",
+    "LINK" : "https://hulu.com/"
+  },
+  {
+    "NAME": "PlayStation Vue" ,
+    "STATUS" : "1",
+    "CHANNEL" : "",
+    "HDCHANNEL" : "",
+    "LINK" : "https://auth.api.sonyentertainmentnetwork.com/login.jsp?service_entity=psn&mid=CBS_SPORTS&request_theme=liquid"
+  },
+  {
+    "NAME" : "YouTube TV",
+    "STATUS" : "1",
+    "CHANNEL" :"",
+    "HDCHANNEL" : "",
+    "LINK" : "https://tv.youtube.com/"
+  }
+]
+
