@@ -48,18 +48,11 @@ class Cbssn_channels_links_Loader {
 	 */
 	public function __construct() {
 
-		$this->actions = array(
-		    ['admin_menu', $this, 'cbssn_admin_menu_page',10]
-        );
+		$this->actions = array();
 		$this->filters = array();
 
 	}
 
-	public function cbssn_admin_menu_page(){
-
-        add_menu_page( 'CBSSN Channels', 'Пульт', 'manage_options', 'site-options', 'add_my_setting', '', 4 );
-
-    }
 
 	/**
 	 * Add a new action to the collection to be registered with WordPress.
