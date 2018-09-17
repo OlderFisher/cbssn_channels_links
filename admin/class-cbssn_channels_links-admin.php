@@ -101,11 +101,11 @@ class Cbssn_channels_links_Admin {
 	}
 
 	public function cbssn_add_admin_panel(){
-		add_menu_page( 'CBSSN Chammels List admin panel', 'CBSSN Channels', 'manage_options', 'cbssn_channels_list', array($this,'cbssn_channels_settings'), '', 4 );
+		add_menu_page( 'CBSSN Channels List admin panel', 'CBSSN Channels', 'manage_options', 'cbssn_channels_list', array($this,'cbssn_channels_settings'), '', 4 );
 	}
 
 	public function cbssn_channels_settings(){
-		echo 'I see you' ;
+		require_once plugin_dir_path( __FILE__ ) . 'partials/cbssn_channels_links-admin-display.php';
 	}
 
 }

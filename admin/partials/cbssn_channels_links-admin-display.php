@@ -11,6 +11,9 @@
  * @package    Cbssn_channels_links
  * @subpackage Cbssn_channels_links/admin/partials
  */
+
+
+echo 'Now we here' ;
 ?>
 
 <!-- This file should primarily consist of HTML with a little bit of PHP. -->
