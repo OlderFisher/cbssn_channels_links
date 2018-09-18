@@ -157,6 +157,7 @@ class Cbssn_channels_links {
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_styles' );
 		$this->loader->add_action( 'admin_enqueue_scripts', $plugin_admin, 'enqueue_scripts' );
 
+
 		$this->loader->add_action('admin_menu',$plugin_admin,'cbssn_add_admin_panel',10);
 
 

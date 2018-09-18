@@ -96,12 +96,16 @@ class Cbssn_channels_links_Admin {
 		 * class.
 		 */
 
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/cbssn_channels_links-admin.js', array( 'jquery' ), $this->version, false );
+		// Installing Vue for admin plugin frontend part
+
+		wp_enqueue_script('vue', 'https://cdn.jsdelivr.net/npm/vue/dist/vue.js',array(), $this->version,false) ;
+		wp_enqueue_script($this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/cbssn_channels_links-admin.js',array(), $this->version,true) ;
+
 
 	}
 
 	public function cbssn_add_admin_panel(){
-		add_menu_page( 'CBSSN Channels List admin panel', 'CBSSN Channels', 'manage_options', 'cbssn_channels_list', array($this,'cbssn_channels_settings'), '', 4 );
+		add_menu_page( 'CBSSN Channels List admin panel', 'CBSSN Channels', 'manage_options', 'cbssn_channels_list', array($this,'cbssn_channels_settings'), '', 83 );
 	}
 
 	public function cbssn_channels_settings(){

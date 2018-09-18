@@ -13,7 +13,15 @@
  */
 
 
-echo 'Now we here' ;
+?>
+
+    <div id="app">
+        <h1>{{ message }}</h1>
+    </div>
+
+<?php
+
+
 ?>
 
 <!-- This file should primarily consist of HTML with a little bit of PHP. -->
