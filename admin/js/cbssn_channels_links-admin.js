@@ -1,5 +1,5 @@
-// (function( $ ) {
-// 	'use strict';
+(function( $ ) {
+    'use strict';
 //
 // 	/**
 // 	 * All of the code for your admin-facing JavaScript source
@@ -31,9 +31,11 @@
 //
 // })( jQuery );
 
-var app = new Vue({
-    el: '#app',
-    data: {
-        message: 'Привет, Vue!'
-    }
-});
+    var app = new Vue({
+        el: '#app',
+        data: {
+            message: 'Привет, Vue!'
+        }
+    });
+
+})() ;
