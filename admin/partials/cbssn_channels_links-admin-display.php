@@ -13,10 +13,22 @@
  */
 
 
-?>
+ ?>
 
-    <div id="app">
+    <div id="cbssn-channels-header">
         <h1>{{ message }}</h1>
+        <hr>
+    </div>
+
+    <div id="cbssn-channels-app">
+        
+
+
+        <div id="cbssn-only-internet">
+
+        </div>
+
+
     </div>
 
 <?php

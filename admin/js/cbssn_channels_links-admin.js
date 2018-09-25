@@ -32,9 +32,9 @@
 // })( jQuery );
 
     var app = new Vue({
-        el: '#app',
+        el: '#cbssn-channels-header',
         data: {
-            message: 'Привет, Vue!'
+            message: 'CBSSN Channels List Adminpanel'
         }
     });
 
